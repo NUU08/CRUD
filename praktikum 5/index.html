@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Wisnu Adhitya</title>
+
+    <!-- Memanggil Bootstrap CSS secara lokal sesuai modul praktikum[cite: 1, 2] -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body class="bg-light">
+
+    <!-- 1. NAVBAR / NAVIGATION -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Wisnu Adhitya</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#hero">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Tentang Saya</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Keahlian</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Proyek</a></li>
+                    <li class="nav-item"><a class="nav-link btn btn-outline-light btn-sm ms-lg-2 px-3" href="#contact">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 2. HALAMAN UTAMA (HERO SECTION) -->
+    <section id="hero" class="py-5 bg-white border-bottom">
+        <div class="container py-4">
+            <div class="row align-items-center flex-column-reverse flex-lg-row">
+                <!-- Teks & CTA -->
+                <div class="col-lg-7 text-center text-lg-start mt-4 mt-lg-0">
+                    <h5 class="text-dark fw-bold mb-2">Hallo, Selamat Datang!</h5>
+                    <h1 class="display-4 fw-bold text-dark mb-2">Wisnu Adhitya</h1>
+                    <h4 class="text-secondary mb-3">Web Developer & UI/UX Enthusiast</h4>
+                    <p class="lead text-muted mb-4">
+                        Saya membantu membangun solusi web yang responsif, cepat, dan siap pakai untuk kebutuhan digital Anda.
+                    </p>
+                    <div class="d-flex gap-2 justify-content-center justify-content-lg-start">
+                        <a href="#contact" class="btn btn-primary btn-lg">Hubungi Saya</a>
+                        <a href="#" class="btn btn-outline-secondary btn-lg" target="_blank">Unduh CV</a>
+                    </div>
+                </div>
+                <!-- Foto Profil -->
+                <div class="col-lg-5 text-center">
+                    <img src="agus.jpeg" class="rounded-circle img-fluid shadow border border-4 border-primary p-1" alt="Foto Profil Wisnu Adhitya" style="max-width: 280px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. TENTANG SAYA (ABOUT ME) -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-dark">Tentang Saya</h2>
+                <p class="text-muted">Mengenal lebih dekat latar belakang, hobi, dan perjalanan karier saya</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Latar Belakang & Hobi -->
+                <div class="col-lg-6">
+                    <div class="card border-0 shadow-sm h-100 p-4">
+                        <h4 class="fw-bold text-primary mb-3">Biografi Singkat</h4>
+                        <p class="text-secondary">
+                            Saya Wisnu Adhitya, seorang Web Developer dan UI/UX Enthusiast dengan pengalaman dalam menciptakan solusi web yang responsif dan user-friendly.
+                        </p>
+                        <hr>
+                        <p class="mb-1"><strong>Alamat:</strong> Yogyakarta, Indonesia</p>
+                        <p class="mb-0"><strong>Hobi:</strong> Mendengarkan Musik, menonton film, Bermain Game</p>
+                    </div>
+                </div>
+
+                <!-- Pendidikan & Sertifikasi -->
+                <div class="col-lg-6">
+                    <div class="card border-0 shadow-sm h-100 p-4">
+                        <h4 class="fw-bold text-primary mb-3">Pendidikan & Sertifikasi</h4>
+                        
+                        <div class="mb-3">
+                            <h6 class="fw-bold mb-0">UNIVERSITAS 'AISYIYAH YOGYAKARTA</h6>
+                            <small class="text-muted">TEKNOLOGI INFORMASI SEMESTER 3</small>
+                            <p class="text-secondary mb-0">Orang jawa btw</p>
+                        </div>
+                        <hr>
+                        <div>
+                            <h6 class="fw-bold mb-0">Juara COC</h6>
+                            <small class="text-muted">2026</small>
+                        </div>
+                        <div class="mt-2">
+                            <h6 class="fw-bold mb-0">Leader COC</h6>
+                            <small class="text-muted">2026</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. KETERAMPILAN & ALAT (SKILLS & TECH STACK) -->
+    <section id="skills" class="py-5 bg-white border-top border-bottom">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-dark">Keterampilan & Alat</h2>
+                <p class="text-muted">Teknologi dan keahlian yang saya kuasai</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Hard Skills -->
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm h-100 p-3 text-center">
+                        <h5 class="fw-bold text-primary mb-3">Hard Skills</h5>
+                        <ul class="list-unstyled text-secondary">
+                            <li class="mb-2">• HTML5 & CSS3</li>
+                            <li class="mb-2">• Bootstrap Framework</li>
+                            <li class="mb-2">• Pemrograman C / Linux</li>
+                            <li class="mb-2">• Database Management</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm h-100 p-3 text-center">
+                        <h5 class="fw-bold text-primary mb-3">Soft Skills</h5>
+                        <ul class="list-unstyled text-secondary">
+                            <li class="mb-2">• Problem Solving</li>
+                            <li class="mb-2">• Kerjasama Tim</li>
+                            <li class="mb-2">• Manajemen Waktu</li>
+                            <li class="mb-2">• Komunikasi Efektif</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Tools & Software -->
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm h-100 p-3 text-center">
+                        <h5 class="fw-bold text-primary mb-3">Tools & Tech Stack</h5>
+                        <ul class="list-unstyled text-secondary">
+                            <li class="mb-2">• Visual Studio Code</li>
+                            <li class="mb-2">• Git & GitHub</li>
+                            <li class="mb-2">• Figma</li>
+                            <li class="mb-2">• Linux CLI / Terminal</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. KARYA / PROYEK TERBAIK (PORTFOLIO) -->
+    <section id="portfolio" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-dark">Proyek Unggulan</h2>
+                <p class="text-muted">Kumpulan karya dan proyek terbaik yang pernah saya kerjakan</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Proyek 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="epep.jpeg" class="card-img-top" alt="Proyek 1">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Free Fire</h5>
+                            <p class="card-text text-secondary">
+                                <strong>Peran:</strong> Support<br>
+                                <strong>Tantangan:</strong> Full Headshot<br>
+                                <strong>Hasil:</strong> Ak-47 2 Juta, jadi RUOK
+                            </p>
+                        </div>
+                        <div class="card-footer bg-white border-0 pt-0 pb-3">
+                            <a href="#" class="btn btn-outline-primary btn-sm w-100" target="_blank">Lihat Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyek 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="meel.jpeg" class="card-img-top" alt="Proyek 2">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Mobile Legends</h5>
+                            <p class="card-text text-secondary">
+                                <strong>Peran:</strong> User EXPLane dan GoldLane<br>
+                                <strong>Tantangan:</strong> Satu Tim sama bocil<br>
+                                <strong>Hasil:</strong> Glory
+                            </p>
+                        </div>
+                        <div class="card-footer bg-white border-0 pt-0 pb-3">
+                            <a href="#" class="btn btn-outline-primary btn-sm w-100" target="_blank">Lihat Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyek 3 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="coc.jpeg" class="card-img-top" alt="Proyek 3">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Clash of Clans</h5>
+                            <p class="card-text text-secondary">
+                                <strong>Peran:</strong> Leader Klan COC<br>
+                                <strong>Tantangan:</strong> Ngeratain CWL<br>
+                                <strong>Hasil:</strong> Jadi Leader Klan
+                            </p>
+                        </div>
+                        <div class="card-footer bg-white border-0 pt-0 pb-3">
+                            <a href="#" class="btn btn-outline-primary btn-sm w-100" target="_blank">Lihat Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. HALAMAN KONTAK (CONTACT PAGE) -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-dark">Hubungi Saya</h2>
+                <p class="text-muted">Jangan ragu untuk menyapa atau berdiskusi mengenai proyek baru</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Info Kontak & Sosmed -->
+                <div class="col-lg-5">
+                    <div class="card border-0 shadow-sm p-4 h-100">
+                        <h4 class="fw-bold text-primary mb-3">Informasi Kontak</h4>
+                        <p class="text-secondary mb-3"><strong>Email:</strong> gunawanhandi83@email.com</p>
+                        <p class="text-secondary mb-3"><strong>WhatsApp:</strong> +62 81524831701</p>
+                        <p class="text-secondary mb-4"><strong>Lokasi:</strong> Pemalang, Indonesia</p>
+
+                        <h5 class="fw-bold text-dark mb-3">Media Sosial</h5>
+                        <div class="d-flex gap-2">
+                            <a href="#" class="btn btn-outline-dark btn-sm" target="_blank">WhatsApp</a>
+                            <a href="#" class="btn btn-outline-dark btn-sm" target="_blank">Tiktok</a>
+                            <a href="#" class="btn btn-outline-dark btn-sm" target="_blank">Instagram</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Formulir Pesan (Contact Form) -->
+                <div class="col-lg-7">
+                    <div class="card border-0 shadow-sm p-4 h-100">
+                        <h4 class="fw-bold text-primary mb-3">Kirim Pesan</h4>
+                        <form>
+                            <div class="mb-3">
+                                <label class="form-label">Nama Anda</label>
+                                <input type="text" class="form-control" placeholder="Masukkan nama Anda">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Alamat Email</label>
+                                <input type="email" class="form-control" placeholder="nama@email.com">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Pesan</label>
+                                <textarea class="form-control" rows="4" placeholder="Tuliskan pesan Anda di sini..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-success">Kirim Pesan</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p class="mb-0">&copy; 2026 [NAMA LENGKAP ANDA]. Dibuat menggunakan Bootstrap 5[cite: 2].</p>
+        </div>
+    </footer>
+
+    <!-- Memanggil Bootstrap JS secara lokal sesuai modul praktikum[cite: 1, 2] -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
